@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Tudo Sobre Google Glass</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="_css/estilo.css">
+		<link rel="stylesheet" href="_css/media.css">
+	</head>
+	
+	<body>
+		<div id="interface">
+			<header id="cabecalho">
+				<hgroup>
+					<h1>Google Glass</h1>
+					<h2>A revolução do Google está chegando</h2>
+				</hgroup>
+				
+                <figure>
+                    <img id="icone" src="_imagens/glass-oculos-preto-peq.png">
+                </figure>
+				<nav id="menu">
+					<h1>Menu Principal</h1>
+					<ul>
+						<li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="index.html" target="_self">Home</a></li>
+						<li onmouseover="mudaFoto('_imagens/especificacoes.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="specs.html" target="_self">Especificações</a></li>
+						<li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="fotos.html" target="_self">Fotos</a></li>
+						<li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="multimidia.html" target="_self">Multimídia</a></li>
+						<li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="fale-conosco.html" target="_self">Fale conosco</a></li>
+					</ul>
+				</nav>
+			</header>
+			<section id="corpo-full">
+				<article id="noticia-principal">
+					<header id="cabecalho-artigo">
+						<hgroup>
+							<h3>Glass > Multimídia</h3>
+							<h1>Sons e Vídeos</h1>
+							<h2>por Gustavo Guanabara</h2>
+							<h3 class="direita">Atualizado em 01/Maio/2013</h3>
+                        </hgroup>
+					</header>
+				</article>
+			</section>
+			<div id="tv-radio">
+				<audio id="musica" controls>
+					<source src="_media/2009-lovers-carvings-bibio.mp3" type="audio/mpeg">
+				</audio>
+				<video id="filme" controlsa poster="_imagens/video-mini03.jpg">
+					<source src="_media/getting-started.mp4" type="video/mp4">
+				</video>
+			</div>
+        <footer id="rodape">
+            <p>
+				Copyright 2013 - by Gustavo Guanabara<br>
+				<a href="https://github.com/BiraBalaZ" target="_blank"> GitHub</a> | 
+				<a href="https://instagram.com/eriick.monteiro" target="_blank"> Instagram</a>
+			</p>
+        </footer>
+        </div>
+        <script src="_javascript/funcoes.js"></script>
+    </body>
+</html>
